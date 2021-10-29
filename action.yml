@@ -1,0 +1,9 @@
+# action.yml
+name: 'AWS-CLI Utility'
+description: 'Run arbitrary AWS CLI commands for actions'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'command'  
+  color: 'gray-dark'
